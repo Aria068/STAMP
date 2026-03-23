@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model checkpoints and LoRA weights
+checkpoints/
+*/checkpoint-*/
+final_lora_*/
+*_sft_stage1/
+
+# Generated results
+results/
+eval_logs/
+wandb/
+
+# Data files
+clean_data/
+*.csv
+*.p
+*.pkl
+*.pca.png
+
+# Logs
+*.log
+*.jsonl
+reward_components.jsonl
+
+# IDE
+.idea/
+.vscode/
+*.swp
